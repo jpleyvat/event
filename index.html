@@ -5,9 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+
+    <!-------------------------------------- Fonts -------------------------------------->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <!-------------------------------------- Fonts -------------------------------------->
+    <!------------------- Styles --------------------->
     <link rel="stylesheet" href="styles/dog.css" />
     <link rel="stylesheet" href="styles/clock.css" />
     <link rel="stylesheet" href="styles/styles.css" />
+    <!------------------- Styles --------------------->
   </head>
   <body>
     <div id="app">
@@ -60,11 +70,42 @@
           </div>
         </div>
       </div>
-      <div id="event"></div>
-      <!--------------------- Vue --------------------->
+      <div id="event">
+        <div id="dog-container">
+          <div class="love_dog">
+            <div class="heart heart--1"></div>
+            <div class="heart heart--2"></div>
+            <div class="heart heart--3"></div>
+            <div class="heart heart--4"></div>
+            <div class="head">
+              <div class="year year--left"></div>
+              <div class="year year--right"></div>
+              <div class="nose"></div>
+              <div class="face">
+                <div class="eye eye--left"></div>
+                <div class="eye eye--right"></div>
+                <div class="mouth"></div>
+              </div>
+            </div>
+            <div class="body">
+              <div class="cheast"></div>
+              <div class="back"></div>
+              <div class="legs">
+                <div class="legs__front legs__front--left"></div>
+                <div class="legs__front legs__front--right"></div>
+                <div class="legs__back legs__back--left"></div>
+                <div class="legs__back legs__back--right"></div>
+              </div>
+              <div class="tail"></div>
+            </div>
+          </div>
+        </div>
+        <div id="message">
+          <h1>Ten un muy Feliz cumpleaños.</h1>
+        </div>
+      </div>
     </div>
 
-    <script src="index.js"></script>
-    <!--------------------- Vue --------------------->
+    <script src="scripts/index.js"></script>
   </body>
 </html>
