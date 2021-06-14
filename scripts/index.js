@@ -1,6 +1,4 @@
-
-const today = new Date()
-const year = today.getFullYear()
+const year = today.getFullYear();
 
 const date = new Date(`April 22, ${year} 00:00:00`);
 let _date = true;
